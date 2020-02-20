@@ -70,61 +70,51 @@
 		],
 		"Medical": [
 			{
-				"section": "Medical",
 				"factor": "Smoking Status",
 				"question": "What is the patient's smoking status?",
 				"options": ["Current", "Past", "Never"]
 			},
 			{
-				"section": "Medical",
 				"factor": "Arthritis",
 				"question": "Does this patient have rheumatoid, psoriatic, or osteoarthritis?",
 				"options": ["boolean"]
 			},
 			{
-				"section": "Medical",
 				"factor": "Back Pain",
 				"question": "Does this patient have chronic back pain or a previous back injury?",
 				"options": ["boolean"]
 			},
 			{
-				"section": "Medical",
 				"factor": "Neuropathy",
 				"question": "Does this patient have diabetic or peripheral neuropathy?",
 				"options": ["boolean"]
 			},
 			{
-				"section": "Medical",
 				"factor": "Blood Clotting",
 				"question": "Does this patient have a history of deep vein thrombosis, venous stasis, or other blood clotting disorders?",
 				"options": ["boolean"]
 			},
 			{
-				"section": "Medical",
 				"factor": "Myocardial Infarction",
 				"question": "Has this patient had a myocardial infarction, coronary artery bypass, or a defibrillator implanted?",
 				"options": ["boolean"]
 			},
 			{
-				"section": "Medical",
 				"factor": "Osteoporosis",
 				"question": "Does this patient have Osteoporosis?",
 				"options": ["boolean"]
 			},
 			{
-				"section": "Medical",
 				"factor": "Hypothyroidism",
 				"question": "Does this patient have a form of Hypothyroidism?",
 				"options": ["Controlled", "Uncontrolled", "No"]
 			},
 			{
-				"section": "Medical",
 				"factor": "Irritable Bowel Syndrome",
 				"question": "Does this patient have IBS?",
 				"options": ["boolean"]
 			},
 			{
-				"section": "Medical",
 				"factor": "Sleep Apnea",
 				"question": "Does this patient have obstructive sleep apnea?",
 				"options": ["Controlled", "Uncontrolled", "No"]
