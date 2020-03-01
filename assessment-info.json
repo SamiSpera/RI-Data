@@ -1,122 +1,144 @@
 {
-"General": [
+	General: [
 		{
-			"factor": "Age",
-			"question": "How old is the patient?",
-			"options": ["integer"]
+			title: 'Age',
+			factor: 'age',
+			question: 'How old is the patient?',
+			options: ['integer']
 		},
 		{
-			"factor": "Gender",
-			"question": "What gender is the patient?",
-			"options": ["Male", "Female"]
+			title: 'Gender',
+			factor: 'gender',
+			question: 'What gender is the patient?',
+			options: ['Male', 'Female']
 		},
 		{
-			"factor": "Height",
-			"question": "What is the patient's height?",
-			"options": ["integer"]
+			title: 'Height',
+			factor: 'height',
+			question: "What is the patient's height?",
+			options: ['integer']
 		},
 		{
-			"factor": "Weight",
-			"question": "What is the patient's weight?",
-			"options": ["integer"]
+			title: 'Weight',
+			factor: 'weight',
+			question: "What is the patient's weight?",
+			options: ['integer']
 		},
 		{
-			"factor": "Type of Surgery",
-			"question": "What kind of surgery is the patient getting?",
-			"options": ["Hip", "Knee"]
+			title: 'Type of Surgery',
+			factor: 'knee_hip',
+			question: 'What kind of surgery is the patient getting?',
+			options: ['Hip', 'Knee']
 		},
 		{
-			"factor": "Revision",
-			"question": "Has the patient had a previous surgery of the same kind?",
-			"options": ["boolean"]
+			title: 'Revision',
+			factor: 'revision',
+			question: 'Has the patient had a previous surgery of the same kind?',
+			options: ['boolean']
 		}
 	],
-	"Social": [
+	Social: [
 		{
-			"factor": "In Home Support",
-			"question": "Will the patient live with someone who can take care of them after the operation?",
-			"options": ["integer"]
+			title: 'In Home Support',
+			factor: 'in_home_support',
+			question: 'Will the patient live with someone who can take care of them after the operation?',
+			options: ['boolean']
 		}
 	],
-	"Functional": [
+	Functional: [
 		{
-			"factor": "Walking Distance",
-			"question": "How far on average can the patient walk?",
-			"options": ["More than 2 blocks", "1-2 blocks", "Housebound"]
+			title: 'Walking Distance',
+			factor: 'walking_distance',
+			question: 'How far on average can the patient walk?',
+			options: ['More than 2 blocks', '1-2 blocks', 'Housebound']
 		},
 		{
-			"factor": "Walking Aid",
-			"question": "Which gait aid does the patient use?",
-			"options": ["None", "Cane", "Crutches/Walker"]
+			title: 'Walking Aid',
+			factor: 'walking_aid',
+			question: 'Which gait aid does the patient use?',
+			options: ['None', 'Cane', 'Crutches/Walker']
 		}
 	],
-	"Mental": [
+	Mental: [
 		{
-			"factor": "Depression Score",
-			"question": "What is the patient's DASS21 Depression Score?",
-			"options": ["integer"]
+			title: 'Depression Score',
+			factor: 'dass_depression',
+			question: 'What is the patient\'s DASS21 Depression Score?',
+			options: ['integer']
 		},
 		{
-			"factor": "Anxiety Score",
-			"question": "What is the patient's DASS21 Anxiety Score?",
-			"options": ["integer"]
+			title: 'Anxiety Score',
+			factor: 'dass_anxiety',
+			question: 'What is the patient\'s DASS21 Anxiety Score?',
+			options: ['integer']
 		},
 		{
-			"factor": "Stress Score",
-			"question": "What is the patient's DASS21 Stress Score?",
-			"options": ["integer"]
+			title: 'Stress Score',
+			factor: 'dass_stress',
+			question: 'What is the patient\'s DASS21 Stress Score?',
+			options: ['integer']
 		}
 	],
-	"Medical": [
+	Medical: [
 		{
-			"factor": "Smoking Status",
-			"question": "What is the patient's smoking status?",
-			"options": ["Current", "Past", "Never"]
+			title: 'Smoking Status',
+			factor: 'smoking',
+			question: 'What is the patient\'s smoking status?',
+			options: ['Current', 'Past', 'Never']
 		},
 		{
-			"factor": "Arthritis",
-			"question": "Does this patient have rheumatoid, psoriatic, or osteoarthritis?",
-			"options": ["boolean"]
+			title: 'Arthritis',
+			factor: 'arthritis',
+			question: 'Does this patient have rheumatoid, psoriatic, or osteoarthritis?',
+			options: ['boolean']
 		},
 		{
-			"factor": "Back Pain",
-			"question": "Does this patient have chronic back pain or a previous back injury?",
-			"options": ["boolean"]
+			title: 'Back Pain',
+			factor: 'back_pain',
+			question: 'Does this patient have chronic back pain or a previous back injury?',
+			options: ['boolean']
 		},
 		{
-			"factor": "Neuropathy",
-			"question": "Does this patient have diabetic or peripheral neuropathy?",
-			"options": ["boolean"]
+			title: 'Neuropathy',
+			factor: 'neuropathy',
+			question: 'Does this patient have diabetic or peripheral neuropathy?',
+			options: ['boolean']
 		},
 		{
-			"factor": "Blood Clotting",
-			"question": "Does this patient have a history of deep vein thrombosis, venous stasis, or other blood clotting disorders?",
-			"options": ["boolean"]
+			title: 'Blood Clotting',
+			factor: 'blood_clotting',
+			question: 'Does this patient have a history of deep vein thrombosis, venous stasis, or other blood clotting disorders?',
+			options: ['boolean']
 		},
 		{
-			"factor": "Myocardial Infarction",
-			"question": "Has this patient had a myocardial infarction, coronary artery bypass, or a defibrillator implanted?",
-			"options": ["boolean"]
+			title: 'Myocardial Infarction',
+			factor: 'myocardial_infarction',
+			question: 'Has this patient had a myocardial infarction, coronary artery bypass, or a defibrillator implanted?',
+			options: ['boolean']
 		},
 		{
-			"factor": "Osteoporosis",
-			"question": "Does this patient have Osteoporosis?",
-			"options": ["boolean"]
+			title: 'Osteoporosis',
+			factor: 'osteoporosis',
+			question: 'Does this patient have Osteoporosis?',
+			options: ['boolean']
 		},
 		{
-			"factor": "Hypothyroidism",
-			"question": "Does this patient have a form of Hypothyroidism?",
-			"options": ["Controlled", "Uncontrolled", "No"]
+			title: 'Hypothyroidism',
+			factor: 'hypothyroidism',
+			question: 'Does this patient have a form of Hypothyroidism?',
+			options: ['Controlled', 'Uncontrolled', 'No']
 		},
 		{
-			"factor": "Irritable Bowel Syndrome",
-			"question": "Does this patient have IBS?",
-			"options": ["boolean"]
+			title: 'Irritable Bowel Syndrome',
+			factor: 'ibs',
+			question: 'Does this patient have IBS?',
+			options: ['boolean']
 		},
 		{
-			"factor": "Sleep Apnea",
-			"question": "Does this patient have obstructive sleep apnea?",
-			"options": ["Controlled", "Uncontrolled", "No"]
+			title: 'Sleep Apnea',
+			factor: 'sleep_apnea',
+			question: 'Does this patient have obstructive sleep apnea?',
+			options: ['Controlled', 'Uncontrolled', 'No']
 		}
 	]
 }
