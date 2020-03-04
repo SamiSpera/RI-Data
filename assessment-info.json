@@ -10,7 +10,7 @@
 			"title": "Gender",
 			"factor": "gender",
 			"question": "What gender is the patient?",
-			"options": ["Male", "Female", "Not Specified"]
+			"options": ["Not Specified", "Male", "Female"]
 		},
 		{
 			"title": "Height",
@@ -28,7 +28,7 @@
 			"title": "Type of Surgery",
 			"factor": "knee_hip",
 			"question": "What kind of surgery is the patient getting?",
-			"options": ["Hip", "Knee", "Not Specified"]
+			"options": ["Not Specified", "Knee", "Hip"]
 		},
 		{
 			"title": "Revision",
@@ -42,7 +42,7 @@
 			"title": "In Home Support",
 			"factor": "in_home_support",
 			"question": "Will the patient live with someone who can take care of them after the operation?",
-			"options": ["integer"]
+			"options": ["boolean"]
 		}
 	],
 	"Functional": [
@@ -50,13 +50,13 @@
 			"title": "Walking Distance",
 			"factor": "walking_distance",
 			"question": "How far on average can the patient walk?",
-			"options": ["More than 2 blocks", "1-2 blocks", "Housebound", "Not Specified"]
+			"options": ["Not Specified", "Housebound", "1-2 blocks", "More than 2 blocks"]
 		},
 		{
 			"title": "Walking Aid",
 			"factor": "walking_aid",
 			"question": "Which gait aid does the patient use?",
-			"options": ["None", "Cane", "Crutches/Walker", "Not Specified"]
+			"options": ["Not Specified", "None", "Cane", "Crutches/Walker"]
 		}
 	],
 	"Mental": [
@@ -84,7 +84,7 @@
 			"title": "Smoking Status",
 			"factor": "smoking",
 			"question": "What is the patient's smoking status?",
-			"options": ["Current", "Past", "Never", "Not Specified"]
+			"options": ["Not Specified", "Never", "Past", "Current"]
 		},
 		{
 			"title": "Arthritis",
@@ -126,7 +126,7 @@
 			"title": "Hypothyroidism",
 			"factor": "hypothyroidism",
 			"question": "Does this patient have a form of Hypothyroidism?",
-			"options": ["Controlled", "Uncontrolled", "No", "Not Specified"]
+			"options": ["Not Specified", "Controlled", "Uncontrolled", "No"]
 		},
 		{
 			"title": "Irritable Bowel Syndrome",
@@ -138,7 +138,7 @@
 			"title": "Sleep Apnea",
 			"factor": "sleep_apnea",
 			"question": "Does this patient have obstructive sleep apnea?",
-			"options": ["Controlled", "Uncontrolled", "No", "Not Specified"]
+			"options": ["Not Specified", "Controlled", "Uncontrolled", "No"]
 		}
 	]
 }
