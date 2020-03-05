@@ -5,11 +5,11 @@
 		"age": 63,
 		"gender": 0,
 		"bmi": null,
-		"knee_hip": 0,
+		"knee_hip": 1,
 		"revision": 0,
 		"in_home_support": 1,
 		"walking_distance": null,
-		"walking_aid": 0,
+		"walking_aid": 1,
 		"dass_depression": 14,
 		"dass_anxiety": 10,
 		"dass_stress": 17,
@@ -20,7 +20,7 @@
 		"blood_clotting": 0,
 		"myocardial_infarction": null,
 		"osteoporosis": 0,
-		"hypothyroidism": 0,
+		"hypothyroidism": 2,
 		"ibs": 0,
 		"sleep_apnea": 0
 	}
