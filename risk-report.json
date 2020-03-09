@@ -1,57 +1,57 @@
 {
-    “available”: 1,
-    “report”: {
-    	“probability”: 0.65432,
-      	“confidence”: 0.80,
-	“factors”: [
-            {
-	   	“factor”: “age”,
-           	“weight”: 1.9
-            },
-            {
-		“factor”: “gender”,
-             	“weight”: -0.121
-            },
-            {
-		“factor”: “revision”,
-              	“weight”: 0.052
-            },
-            {
-		“factor”: “arthritis”,
-              	“weight”: 0.052
-            },
-            {
-		“factor”: “back_pain”,
-              	“weight”: 0.042
-            },
-            {
-		“factor”: “neuropathy”,
-              	“weight”: 0.033
-            },
-            {
-		“factor”: “blood_clotting”,
-              	“weight”: 0.024
-            },
-            {
-		“factor”: “myocardial_infarction”,
-              	“weight”: 0.021
-            },
-            {
-		“factor”: “osteoporosis”,
-              	“weight”: 0.002
-            },
-            {
-		“factor”: “hypothyroidism”,
-              	“weight”: 0.001
-            },
-            {
-		“factor”: “ibs”,
-              	“weight”: -0.052
-            },
-            {
-		“factor”: “sleep_apnea”,
-              	“weight”: -0.042
-            }     
-        ]
-    }
+	"available": 1,
+	"report": {
+		"probability" : 0.65432,
+		"confidence" : 0.80,
+		"factors": [
+			{
+				"factor": "age",
+				"weight": 1.9
+			},
+			{
+				"factor": "gender",
+				"weight": -1.121
+			},
+			{
+				"factor": "revision",
+				"weight": 0.052
+			},
+			{
+				"factor": "arthritis",
+				"weight": 0.052
+			},
+			{
+				"factor": "back_pain",
+				"weight": 0.042
+			},
+			{
+				"factor": "neuropathy",
+				"weight": 0.033
+			},
+			{
+				"factor": "blood-clotting",
+				"weight": 0.024
+			},
+			{
+				"factor": "myocardial_infarction",
+				"weight": 0.021
+			},
+			{
+				"factor": "osteoporosis",
+				"weight": 0.002
+			},
+			{
+				"factor": "hypothyroidism",
+				"weight": 0.001
+			},
+			{
+				"factor": "ibs",
+				"weight": -0.052
+			},
+			{
+				"factor": "sleep_apnea",
+				"weight": -0.042
+			}
+		]
+	}
 }
