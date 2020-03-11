@@ -1,27 +1,98 @@
 
-{
-	"patientInfo" : {
-		"name": "Thomas Mills",
-		"age": 63,
-		"gender": 0,
-		"bmi": null,
-		"knee_hip": 1,
-		"revision": 0,
-		"in_home_support": 1,
-		"walking_distance": null,
-		"walking_aid": 1,
-		"dass_depression": 14,
-		"dass_anxiety": 10,
-		"dass_stress": 17,
-		"smoking": null,
-		"arthritis": 1,
-		"back_pain": 0,
-		"neuropathy": 0,
-		"blood_clotting": 0,
-		"myocardial_infarction": null,
-		"osteoporosis": 0,
-		"hypothyroidism": 2,
-		"ibs": 0,
-		"sleep_apnea": 0
-	}
-}
+[  {
+	"factor": "name",
+      	"value": "Thomas Mills"
+    },
+    {
+	"factor": "age",
+        "value": 65
+    },
+    {
+	"factor": "gender",
+        "value": 0 // = Female, 1 = Male
+    },
+ 		{
+	"factor": "height",
+        "value": 165
+    },
+    {
+	"factor": "weight",
+        "value": 70
+    },
+    {
+	"factor": "bmi",
+        "value": 35
+    },
+    {	
+	"factor": "knee_hip",
+        "value": 0 // = knee, 1 = hip
+    },
+    {
+	"factor": "revision",
+        "value": 0 // = no, 1 = yes
+    },
+    {
+	"factor": "in_home_support",
+        "value": 1
+    },
+    {
+	"factor": "walking_distance",
+        "value": 0 // = homebound, 1 = 1-2 blocks, 2 = >2 Blocks
+    },
+    {
+	"factor": "walking_aid",
+        "value": 0 // = None, 1 = Cane, 2 = Crutches/Walker
+    },
+    {
+	"factor": "dass_depression",
+        "value": 14
+    },
+    {
+	"factor": "dass_anxiety",
+        "value": 10
+    },
+    {
+	"factor": "dass_stress",
+        "value": 17
+    },
+    {
+	"factor": "smoking",
+        "value": 0 // = Never, 1 = Past, 2 = Current
+    },
+    {
+	"factor": "arthritis",
+        "value": 1
+    },
+    {
+	"factor": "back_pain",
+        "value": 0
+    },
+    {
+	"factor": "neuropathy",
+        "value": 0
+    },
+    {
+	"factor": "blood_clotting",
+        "value": 0
+    },
+    {
+	"factor": "myocardial_infarction",
+        "value": 0
+    },
+    {
+	"factor": "osteoporosis",
+        "value": 0
+    },
+    {
+	"factor": "hypothyroidism",
+        "value": 0 // = None, 1 = Controlled, 2 = Uncontrolled
+    },
+    {
+	"factor": "ibs",
+        "value": 0
+    },
+    {
+	"factor": "sleep_apnea",
+        "value": 0 // = None, 1 = Controlled, 2 = Uncontrolled
+    }
+]
