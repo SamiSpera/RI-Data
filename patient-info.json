@@ -29,7 +29,7 @@
     },
     {
 	"factor": "revision",
-        "value": 0
+        "value": null
     },
     {
 	"factor": "in_home_support",
@@ -57,15 +57,15 @@
     },
     {
 	"factor": "smoking",
-        "value": 0
+        "value": 2
     },
     {
 	"factor": "arthritis",
-        "value": 1
+        "value": null
     },
     {
 	"factor": "back_pain",
-        "value": 0
+        "value": null
     },
     {
 	"factor": "neuropathy",
