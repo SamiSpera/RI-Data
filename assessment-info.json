@@ -10,7 +10,7 @@
 			"title": "Gender",
 			"factor": "gender",
 			"question": "What gender is the patient?",
-			"options": ["Not Specified", "Male", "Female"]
+			"options": ["Not Specified", "Female", "Male"]
 		},
 		{
 			"title": "Height",
