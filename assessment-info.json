@@ -126,7 +126,7 @@
 			"title": "Hypothyroidism",
 			"factor": "hypothyroidism",
 			"question": "Does this patient have a form of Hypothyroidism?",
-			"options": ["Not Specified", "Controlled", "Uncontrolled", "No"]
+			"options": ["Not Specified", "None", "Controlled", "Uncontrolled"]
 		},
 		{
 			"title": "Irritable Bowel Syndrome",
@@ -138,7 +138,7 @@
 			"title": "Sleep Apnea",
 			"factor": "sleep_apnea",
 			"question": "Does this patient have obstructive sleep apnea?",
-			"options": ["Not Specified", "Controlled", "Uncontrolled", "No"]
+			"options": ["Not Specified","None", "Controlled", "Uncontrolled"]
 		}
 	]
 }
