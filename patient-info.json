@@ -9,7 +9,7 @@
     },
     {
 	"factor": "gender",
-        "value": 0 // = Female, 1 = Male
+        "value": 0
     },
  		{
 	"factor": "height",
@@ -25,11 +25,11 @@
     },
     {	
 	"factor": "knee_hip",
-        "value": 0 // = knee, 1 = hip
+        "value": 0
     },
     {
 	"factor": "revision",
-        "value": 0 // = no, 1 = yes
+        "value": 0
     },
     {
 	"factor": "in_home_support",
@@ -37,11 +37,11 @@
     },
     {
 	"factor": "walking_distance",
-        "value": 0 // = homebound, 1 = 1-2 blocks, 2 = >2 Blocks
+        "value": 0
     },
     {
 	"factor": "walking_aid",
-        "value": 0 // = None, 1 = Cane, 2 = Crutches/Walker
+        "value": 0
     },
     {
 	"factor": "dass_depression",
@@ -57,7 +57,7 @@
     },
     {
 	"factor": "smoking",
-        "value": 0 // = Never, 1 = Past, 2 = Current
+        "value": 0
     },
     {
 	"factor": "arthritis",
@@ -85,7 +85,7 @@
     },
     {
 	"factor": "hypothyroidism",
-        "value": 0 // = None, 1 = Controlled, 2 = Uncontrolled
+        "value": 0
     },
     {
 	"factor": "ibs",
@@ -93,6 +93,6 @@
     },
     {
 	"factor": "sleep_apnea",
-        "value": 0 // = None, 1 = Controlled, 2 = Uncontrolled
+        "value": 0
     }
 ]
