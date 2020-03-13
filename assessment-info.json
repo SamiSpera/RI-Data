@@ -4,37 +4,43 @@
 			"title": "Age",
 			"factor": "age",
 			"question": "How old is the patient?",
-			"options": ["integer"]
+			"options": ["integer"],
+			"required": true
 		},
 		{
 			"title": "Gender",
 			"factor": "gender",
 			"question": "What gender is the patient?",
-			"options": ["Not Specified", "Female", "Male"]
+			"options": ["Not Specified", "Female", "Male"],
+			"required": true
 		},
 		{
 			"title": "Height",
 			"factor": "height",
 			"question": "What is the patient's height?",
-			"options": ["integer"]
+			"options": ["integer"],
+			"required": true
 		},
 		{
 			"title": "Weight",
 			"factor": "weight",
 			"question": "What is the patient's weight?",
-			"options": ["integer"]
+			"options": ["integer"],
+			"required": true
 		},
 		{
 			"title": "Type of Surgery",
 			"factor": "knee_hip",
 			"question": "What kind of surgery is the patient getting?",
-			"options": ["Not Specified", "Knee", "Hip"]
+			"options": ["Not Specified", "Knee", "Hip"],
+			"required": true
 		},
 		{
 			"title": "Revision",
 			"factor": "revision",
 			"question": "Has the patient had a previous surgery of the same kind?",
-			"options": ["boolean"]
+			"options": ["boolean"],
+			"required": true
 		}
 	],
 	"Social": [
@@ -42,7 +48,8 @@
 			"title": "In Home Support",
 			"factor": "in_home_support",
 			"question": "Will the patient live with someone who can take care of them after the operation?",
-			"options": ["boolean"]
+			"options": ["boolean"],
+			"required": true
 		}
 	],
 	"Functional": [
@@ -50,13 +57,15 @@
 			"title": "Walking Distance",
 			"factor": "walking_distance",
 			"question": "How far on average can the patient walk?",
-			"options": ["Not Specified", "Housebound", "1-2 blocks", "More than 2 blocks"]
+			"options": ["Not Specified", "Housebound", "1-2 blocks", "More than 2 blocks"],
+			"required": true
 		},
 		{
 			"title": "Walking Aid",
 			"factor": "walking_aid",
 			"question": "Which gait aid does the patient use?",
-			"options": ["Not Specified", "None", "Cane", "Crutches/Walker"]
+			"options": ["Not Specified", "None", "Cane", "Crutches/Walker"],
+			"required": true
 		}
 	],
 	"Mental": [
@@ -64,19 +73,22 @@
 			"title": "Depression Score",
 			"factor": "dass_depression",
 			"question": "What is the patient's DASS21 Depression Score?",
-			"options": ["integer"]
+			"options": ["integer"],
+			"required": false
 		},
 		{
 			"title": "Anxiety Score",
 			"factor": "dass_anxiety",
 			"question": "What is the patient's DASS21 Anxiety Score?",
-			"options": ["integer"]
+			"options": ["integer"],
+			"required": false
 		},
 		{
 			"title": "Stress Score",
 			"factor": "dass_stress",
 			"question": "What is the patient's DASS21 Stress Score?",
-			"options": ["integer"]
+			"options": ["integer"],
+			"required": false
 		}
 	],
 	"Medical": [
@@ -84,61 +96,71 @@
 			"title": "Smoking Status",
 			"factor": "smoking",
 			"question": "What is the patient's smoking status?",
-			"options": ["Not Specified", "Never", "Past", "Current"]
+			"options": ["Not Specified", "Never", "Past", "Current"],
+			"required": true
 		},
 		{
 			"title": "Arthritis",
 			"factor": "arthritis",
 			"question": "Does this patient have rheumatoid, psoriatic, or osteoarthritis?",
-			"options": ["boolean"]
+			"options": ["boolean"],
+			"required": true
 		},
 		{
 			"title": "Back Pain",
 			"factor": "back_pain",
 			"question": "Does this patient have chronic back pain or a previous back injury?",
-			"options": ["boolean"]
+			"options": ["boolean"],
+			"required": true
 		},
 		{
 			"title": "Neuropathy",
 			"factor": "neuropathy",
 			"question": "Does this patient have diabetic or peripheral neuropathy?",
-			"options": ["boolean"]
+			"options": ["boolean"],
+			"required": true
 		},
 		{
 			"title": "Blood Clotting",
 			"factor": "blood_clotting",
 			"question": "Does this patient have a history of deep vein thrombosis, venous stasis, or other blood clotting disorders?",
-			"options": ["boolean"]
+			"options": ["boolean"],
+			"required": true
 		},
 		{
 			"title": "Myocardial Infarction",
 			"factor": "myocardial_infarction",
 			"question": "Has this patient had a myocardial infarction, coronary artery bypass, or a defibrillator implanted?",
-			"options": ["boolean"]
+			"options": ["boolean"],
+			"required": true
 		},
 		{
 			"title": "Osteoporosis",
 			"factor": "osteoporosis",
 			"question": "Does this patient have Osteoporosis?",
-			"options": ["boolean"]
+			"options": ["boolean"],
+			"required": true
 		},
 		{
 			"title": "Hypothyroidism",
 			"factor": "hypothyroidism",
 			"question": "Does this patient have a form of Hypothyroidism?",
-			"options": ["Not Specified", "None", "Controlled", "Uncontrolled"]
+			"options": ["Not Specified", "None", "Controlled", "Uncontrolled"],
+			"required": true
 		},
 		{
 			"title": "Irritable Bowel Syndrome",
 			"factor": "ibs",
 			"question": "Does this patient have IBS?",
-			"options": ["boolean"]
+			"options": ["boolean"],
+			"required": true
 		},
 		{
 			"title": "Sleep Apnea",
 			"factor": "sleep_apnea",
 			"question": "Does this patient have obstructive sleep apnea?",
-			"options": ["Not Specified","None", "Controlled", "Uncontrolled"]
+			"options": ["Not Specified","None", "Controlled", "Uncontrolled"],
+			"required": true
 		}
 	]
 }
