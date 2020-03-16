@@ -4,6 +4,10 @@
       	"value": "Thomas Mills"
     },
     {
+	"factor": "dob",
+	"value": 19540518000000,
+    },
+    {
 	"factor": "age",
         "value": 65
     },
