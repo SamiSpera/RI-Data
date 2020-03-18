@@ -13,7 +13,7 @@
     },
     {
 	"factor": "gender",
-        "value": 0
+        "value": -1
     },
  		{
 	"factor": "height",
@@ -41,7 +41,7 @@
     },
     {
 	"factor": "walking_distance",
-        "value": 0
+        "value": -1
     },
     {
 	"factor": "walking_aid",
@@ -61,7 +61,7 @@
     },
     {
 	"factor": "smoking",
-        "value": 2
+        "value": -1
     },
     {
 	"factor": "arthritis",
