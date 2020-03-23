@@ -14,7 +14,7 @@
             },
             {
                 "factor": "revision",
-                "weight": 0.052
+                "weight": 0.042
             },
             {
                 "factor": "arthritis",
@@ -22,7 +22,7 @@
             },
             {
                 "factor": "back_pain",
-                "weight": 0.042
+                "weight": 0.062
             },
             {
                 "factor": "neuropathy",
