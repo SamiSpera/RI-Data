@@ -2,7 +2,7 @@
     "available": 1,
     "report": {
         "probability": 0.65432,
-      "completion": 0.80,
+      "completion": 0.80
         "factors": [
             {
                 "factor": "age",
@@ -14,7 +14,7 @@
             },
             {
                 "factor": "revision",
-                "weight": 0.042
+                "weight": 0.052
             },
             {
                 "factor": "arthritis",
@@ -22,7 +22,7 @@
             },
             {
                 "factor": "back_pain",
-                "weight": 0.062
+                "weight": 0.042
             },
             {
                 "factor": "neuropathy",
