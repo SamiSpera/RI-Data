@@ -6,11 +6,11 @@
         "factors": [
             {
                 "factor": "age",
-                "weight": 1.9
+                "weight": 1
             },
             {
                 "factor": "gender",
-                "weight": -0.121
+                "weight": -14
             },
             {
                 "factor": "revision",
@@ -18,7 +18,7 @@
             },
             {
                 "factor": "arthritis",
-                "weight": 0.052
+                "weight": 0.2
             },
             {
                 "factor": "back_pain",
@@ -26,19 +26,19 @@
             },
             {
                 "factor": "neuropathy",
-                "weight": 0.033
+                "weight": 0.12
             },
             {
                 "factor": "blood_clotting",
-                "weight": 0.024
+                "weight": 123
             },
             {
                 "factor": "myocardial_infarction",
-                "weight": 0.021
+                "weight": 3
             },
             {
                 "factor": "osteoporosis",
-                "weight": 0.002
+                "weight": 0.02
             },
             {
                 "factor": "hypothyroidism",
@@ -46,11 +46,11 @@
             },
             {
                 "factor": "ibs",
-                "weight": -0.052
+                "weight": -0.02
             },
             {
                 "factor": "sleep_apnea",
-                "weight": -0.042
+                "weight": -0.0435
             }     
         ]
     }
