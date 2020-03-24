@@ -46,7 +46,7 @@
             },
             {
                 "factor": "ibs",
-                "weight": -2
+                "weight": -24
             },
             {
                 "factor": "sleep_apnea",
