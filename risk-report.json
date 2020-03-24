@@ -6,7 +6,7 @@
         "factors": [
             {
                 "factor": "age",
-                "weight": 1
+                "weight": 12
             },
             {
                 "factor": "gender",
@@ -14,7 +14,7 @@
             },
             {
                 "factor": "revision",
-                "weight": 0.052
+                "weight": 52
             },
             {
                 "factor": "arthritis",
@@ -34,19 +34,19 @@
             },
             {
                 "factor": "myocardial_infarction",
-                "weight": 3
+                "weight": 234
             },
             {
                 "factor": "osteoporosis",
-                "weight": 0.02
+                "weight": 0.09
             },
             {
                 "factor": "hypothyroidism",
-                "weight": 0.001
+                "weight": 0.01
             },
             {
                 "factor": "ibs",
-                "weight": -0.02
+                "weight": -2
             },
             {
                 "factor": "sleep_apnea",
