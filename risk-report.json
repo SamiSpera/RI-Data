@@ -2,55 +2,55 @@
     "available": 1,
     "report": {
         "probability": 0.0109,
-      "completion": 0.80,
+      "completion": 0.931,
         "factors": [
             {
                 "factor": "age",
-                "weight": 4.793137
+                "weight": 0.339491
             },
             {
                 "factor": "gender",
-                "weight": 0.085348
+                "weight": 0.077848
             },
             {
                 "factor": "revision",
-                "weight": 0.108012
+                "weight": -0.108012
             },
             {
                 "factor": "arthritis",
-                "weight": 0.217278
+                "weight": 0.612192
             },
             {
                 "factor": "back_pain",
-                "weight": 0.074319
+                "weight": 0.634975
             },
             {
                 "factor": "neuropathy",
-                "weight": 0.010441
+                "weight": 0.355997
             },
             {
                 "factor": "blood_clotting",
-                "weight": 0.004319
+                "weight": -0.004319
             },
             {
                 "factor": "myocardial_infarction",
-                "weight": 0.006497
+                "weight": 0.165918
             },
             {
                 "factor": "osteoporosis",
-                "weight": 0.008602
+                "weight": -0.008602
             },
             {
                 "factor": "hypothyroidism",
-                "weight": 0.005759
+                "weight": 0.100445
             },
             {
                 "factor": "ibs",
-                "weight": -0.010713
+                "weight": 0.010713
             },
             {
                 "factor": "sleep_apnea",
-                "weight": -0.026723
+                "weight": 0.026723
             }     
         ]
     }
