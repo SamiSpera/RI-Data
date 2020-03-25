@@ -1,16 +1,16 @@
 {
     "available": 1,
     "report": {
-        "probability": 0.65432,
+        "probability": 0.0109,
       "completion": 0.80,
         "factors": [
             {
                 "factor": "age",
-                "weight": -0.339491
+                "weight": 4.793137
             },
             {
                 "factor": "gender",
-                "weight": -0.077848
+                "weight": 0.085348
             },
             {
                 "factor": "revision",
@@ -18,15 +18,15 @@
             },
             {
                 "factor": "arthritis",
-                "weight": -0.634975
+                "weight": 0.217278
             },
             {
                 "factor": "back_pain",
-                "weight": -0.634975
+                "weight": 0.074319
             },
             {
                 "factor": "neuropathy",
-                "weight": -0.355997
+                "weight": 0.010441
             },
             {
                 "factor": "blood_clotting",
@@ -34,7 +34,7 @@
             },
             {
                 "factor": "myocardial_infarction",
-                "weight": -0.165918
+                "weight": 0.006497
             },
             {
                 "factor": "osteoporosis",
@@ -42,7 +42,7 @@
             },
             {
                 "factor": "hypothyroidism",
-                "weight": -0.100445
+                "weight": 0.005759
             },
             {
                 "factor": "ibs",
