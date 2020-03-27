@@ -73,30 +73,30 @@
     },
     {
 	"factor": "neuropathy",
-        "value": 0
+        "value": null
     },
     {
 	"factor": "blood_clotting",
-        "value": 0
+        "value": null
     },
     {
 	"factor": "myocardial_infarction",
-        "value": 0
+        "value": null
     },
     {
 	"factor": "osteoporosis",
-        "value": 0
+        "value": null
     },
     {
 	"factor": "hypothyroidism",
-        "value": 0
+        "value": null
     },
     {
 	"factor": "ibs",
-        "value": 0
+        "value": null
     },
     {
 	"factor": "sleep_apnea",
-        "value": 0
+        "value": null
     }
 ]
