@@ -9,7 +9,7 @@
     },
     {
         "factor": "age",
-        "value": 65
+        "value": null
     },
     {
         "factor": "gender",
@@ -25,7 +25,7 @@
     },
     {
         "factor": "units",
-        "value": 0
+        "value": 1
     },
     {
         "factor": "height",
@@ -65,39 +65,39 @@
     },
     {
         "factor": "smoking",
-        "value": 0
+        "value": null
     },
     {
         "factor": "arthritis",
-        "value": 1
+        "value": null
     },
     {
         "factor": "back_pain",
-        "value": 0
+        "value": null
     },
     {
         "factor": "neuropathy",
-        "value": 0
+        "value": null
     },
     {
         "factor": "blood_clotting",
-        "value": 0
+        "value": null
     },
     {
         "factor": "myocardial_infarction",
-        "value": 0
+        "value": null
     },
     {
         "factor": "osteoporosis",
-        "value": 0
+        "value": null
     },
     {
         "factor": "hypothyroidism",
-        "value": 0
+        "value": null
     },
     {
         "factor": "ibs",
-        "value": 0
+        "value": null
     },
     {
         "factor": "sleep_apnea",
