@@ -17,6 +17,30 @@
                 "highlight": true
             },
             {
+                "title": "Type of Surgery",
+                "factor": "knee_hip",
+                "question": "What kind of surgery is the patient getting?",
+                "options": ["Not Specified", "Knee", "Hip"],
+                "required": true,
+                "highlight": true
+            },
+            {
+                "title": "Revision",
+                "factor": "revision",
+                "question": "Has the patient had a previous surgery of the same kind?",
+                "options": ["boolean"],
+                "required": true,
+                "highlight": false
+            },
+            {
+                "title": "Units",
+                "factor": "units",
+                "question": "Height and weight measured in US Customary or Metric?",
+                "options": ["Not Specified", "US Customary", "Metric"],
+                "required": false,
+                "highlight": false
+            },
+            {
                 "title": "Height",
                 "factor": "height",
                 "question": "What is the patient's height?",
@@ -40,30 +64,6 @@
                 "required": true,
                 "highlight": true
             },
-            {
-                "title": "Units",
-                "factor": "units",
-                "question": "Height and weight measured in US Customary or Metric?",
-                "options": ["US Customary", "Metric"],
-                "required": false,
-                "highlight": false
-            },
-            {
-                "title": "Type of Surgery",
-                "factor": "knee_hip",
-                "question": "What kind of surgery is the patient getting?",
-                "options": ["Not Specified", "Knee", "Hip"],
-                "required": true,
-                "highlight": true
-            },
-            {
-                "title": "Revision",
-                "factor": "revision",
-                "question": "Has the patient had a previous surgery of the same kind?",
-                "options": ["boolean"],
-                "required": true,
-                "highlight": false
-            }
         ],
         "Social": [
             {
