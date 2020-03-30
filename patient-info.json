@@ -101,7 +101,5 @@
     {
         "factor": "sleep_apnea",
         "value": 0
-    },
-
-    // ...
+    }
 ]
