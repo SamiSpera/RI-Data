@@ -63,7 +63,7 @@
                 "options": ["integer"],
                 "required": true,
                 "highlight": true
-            },
+            }
         ],
         "Social": [
             {
