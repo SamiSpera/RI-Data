@@ -36,7 +36,7 @@
                 "title": "Units",
                 "factor": "units",
                 "question": "Height and weight measured in US Customary or Metric?",
-                "options": ["US Customary", "Metric"],
+                "options": ["Not Specified", "US Customary", "Metric"],
                 "required": false,
                 "highlight": false
             },
