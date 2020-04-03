@@ -41,7 +41,7 @@
     },
     {
         "factor": "in_home_support",
-        "value": 1
+        "value": null
     },
     {
         "factor": "walking_distance",
@@ -53,7 +53,7 @@
     },
     {
         "factor": "dass_depression",
-        "value": 14
+        "value": null
     },
     {
         "factor": "dass_anxiety",
