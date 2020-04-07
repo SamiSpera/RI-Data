@@ -1,13 +1,5 @@
 {
 "General": [
-            {
-                "title": "Age",
-                "factor": "age",
-                "question": "How old is the patient?",
-                "options": ["integer"],
-                "required": true,
-                "highlight": true
-            },
 	    {
                 "title": "Date of Birth",
                 "factor": "dob",
@@ -15,6 +7,14 @@
                 "options": ["integer"],
                 "required": true,
                 "highlight": false
+            },
+            {
+                "title": "Age",
+                "factor": "age",
+                "question": "How old is the patient?",
+                "options": ["integer"],
+                "required": true,
+                "highlight": true
             },
             {
                 "title": "Gender",
