@@ -20,7 +20,7 @@
     },
     {
         "factor": "revision",
-        "value": 0
+        "value": null
     },
     {
         "factor": "units",
