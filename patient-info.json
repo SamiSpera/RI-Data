@@ -33,7 +33,7 @@
     },
     {
         "factor": "weight",
-        "value": 70
+        "value": null
     },
     {
         "factor": "bmi",
